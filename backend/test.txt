@@ -1,0 +1,2 @@
+Este es un archivo de texto plano que servirá y será utilizado únicamente para añadir un commit
+que será utilizado para la creación de un PR
