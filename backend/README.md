@@ -1,10 +1,10 @@
 # package-manager-backend
 
-A robust, native Node.js backend service for the package-manager application. Built with TypeScript for type safety and scalability, utilizing native Node.js modules for maximum performance and minimal dependencies.
+A robust, Node.js and Express.js backend service for the package-manager application. Built with TypeScript for type safety and scalability, utilizing native Node.js modules for maximum performance and minimal dependencies.
 
 ## Features
 
-- **Native Node.js Server**: Built using the `http` module, avoiding heavy framework overhead.
+- **Node.js Server**: Built using Express.js for structured, scalable, and maintainable HTTP handling.
 - **TypeScript**: Fully typed codebase for better developer experience and code quality.
 - **Environment Configuration**: Uses `dotenv` for secure environment variable management.
 - **Modern ESM**: Configured as an ECMAScript Module (ESM) project.
@@ -16,18 +16,12 @@ A robust, native Node.js backend service for the package-manager application. Bu
 
 ## Installation
 
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/EDK367/package-manager-backend.git
-    cd package-manager-backend
-    ```
-
-2. **Install dependencies:**
+1. **Install dependencies:**
     ```bash
     npm install
     ```
 
-3. **Configure environment:**
+2. **Configure environment:**
     Copy the example environment file and adjust as needed.
     ```bash
     cp .env.example .env
